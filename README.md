@@ -16,7 +16,6 @@ This website was created for a local small business. The goal of the website was
 - Nodemailer
 - Firebase
 - PM2
-- Material UI Icons
 - React Toastify
 - React-i18next
 
@@ -71,7 +70,7 @@ Throughout this project, I had the opportunity to work with a client and go thro
 
 The website is currently available at <https://gelatinasmaria-f245f.web.app/>
 
-# React + Vite
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
