@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+  }
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.about__title {
+    color: #495A58;
+    font-family: "Sansita", sans-serif;
+    font-size: 60px;
+}
+
+.about__info {
+    color: #303636;
+    font-family: "Nunito Sans", sans-serif;
+    padding-bottom: 60px;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.about__pic {
+    max-width: 600px;
+    height: auto;
+    align-items: right;
+    
+}
+
+.about__left {
+    flex: 1;
+    padding-right: 70px;
+    justify-content: center;
+    text-align: left;
+  }
+
+.about__right {
+    flex: 1;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+
+  @media (min-width: 1900px) {
+    .about__content {
+      padding-left: 200px;
+      padding-right: 200px;
+    }
+
+    .about__pic {
+        max-width: 800px;
+    }
+  }
+
+  @media (min-width: 751px) and (max-width: 1120px){
+    .about__content {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  }
+
+  @media (max-width: 850px) {
+    .about__content {
+      flex-direction: column;
+      max-width: 100%;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    
+    .about__left {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 60px;
+      }
+  
+      .about__right {
+        margin-top: 20px;
+        padding-left: 0;
+        text-align: center;
+      }
+  
+      .about__pic {
+        width: 100%;
+        max-width: 550px;
+        align-items: center;
+        height: auto;
+
+      }
+
+  }
+
+  @media (max-width: 530px){
+    .about__title {
+        text-align: center;
+        justify-content: center;
+    }
+  }
+
+  @media (max-width: 450px) {
+    .about__title {
+        font-size: 50px;
+    }
+    .about__left {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .about {
+        padding-top: 0;
+    }
+    .about__content {
+        padding-top: 0;
+    }
+  }

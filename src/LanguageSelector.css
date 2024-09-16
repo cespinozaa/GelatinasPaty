@@ -1,0 +1,10 @@
+.lang button {
+    background-color: #E5E3DC;
+    padding: 7px;
+}
+
+.lang button:hover {
+    background-color: #E5E3DC;;
+    border-color: #E5E3DC;;
+}
+

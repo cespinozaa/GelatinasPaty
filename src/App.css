@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  color: #303636;
+  
+}
+
+
+.background-container{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+
+}
+
+
+.background-container::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url('./pictures/whitecactus.jpg');
+  background-size: cover;
+  background-position: left-center;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  z-index: -1;
+  
+}
+
+.main__title {
+  color: #495A58;
+}
+
+
+.app {
+  padding-top: 120px;
+  text-align: center;
+  font-family: "Sansita", sans-serif;
+  font-size: 35px;
+}
+
+.main__desc {
+  text-align: center;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+.card {
+  text-align: center;
+  flex-wrap: wrap;
+  display: flex;
+  font-size: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.placeholder {
+  color: #888;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.main__desc2 {
+  display: flex;
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  font-size: 20px;
+  color: #303636;
+  font-style: italic;
+}
+
+@media (min-width: 1348px) { 
+  .background-container::before{
+    background-size: cover;
+    background-position: left center;
+    
+  }
+}
+
+@media (min-width: 1700px){
+  .main__desc {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
+
+@media (min-width: 1900px){
+  .main__desc {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+}
+
+@media (max-width: 750px){
+  .main__desc {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .main__desc {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .card {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .main__title {
+    font-size: 50px;
+  }
+  .main__desc {
+    font-size: 17px;
+  }
+  .main__desc2 {
+    font-size: 17px;
+  }
+  .app {
+    padding-top: 40px;
+  }
+}

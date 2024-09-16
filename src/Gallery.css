@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+
+.gallery {
+    padding: 30px;
+    padding-top: 110px;
+    justify-content: center;
+}
+
+.gallery__title {
+    color: #495A58;
+    font-family: "Sansita", sans-serif;
+    font-size: 60px;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+}
+
+.gallery__order {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    justify-content: center;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+}
+
+.gallery__pricing {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.gallery__order button {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+@media (min-width: 1900px) {
+    .gallery__title {
+      padding-left: 170px;
+      padding-right: 200px;
+    }
+  }
+
+@media (min-width: 751px) and (max-width: 1120px){
+    .gallery__title {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+@media (max-width: 750px){
+    .gallery__title{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .gallery__title {
+        font-size: 50px;
+    }
+    .gallery__order {
+        font-size: 17px;
+    }
+    .gallery__pricing {
+        font-size: 13px;
+    }
+    .gallery__order button {
+        font-size: 15px;
+    }
+    .gallery {
+        padding-top: 0px;
+    }
+}
