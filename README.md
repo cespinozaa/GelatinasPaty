@@ -2,7 +2,7 @@
 
 ## Intro ✨
 
-This website was created for a local small business. The goal of the website was to display their services and their work in a concise, simple manner. It is available here <https://gelatinasmaria-f245f.web.app/>
+This website was created for a local small business. The goal of the website was to display their services and their work in a concise, simple manner. It is available here: <https://gelatinaspaty.com/> or here: <https://gelatinasmaria-f245f.web.app/>
 
 ## Tech Stack ⚙️
 
@@ -68,7 +68,7 @@ Throughout this project, I had the opportunity to work with a client and go thro
 
 ## Running The Project 🪄
 
-The website is currently available at <https://gelatinasmaria-f245f.web.app/>
+The website is currently available at <https://gelatinaspaty.com/> or <https://gelatinasmaria-f245f.web.app/>
 
 ## React + Vite
 
